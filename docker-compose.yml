@@ -6,5 +6,5 @@ services:
     restart: always
 
     ports:
-      - "3000:80"
+      - "3005:80"
 

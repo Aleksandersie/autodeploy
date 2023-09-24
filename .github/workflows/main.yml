@@ -16,6 +16,6 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SERVER_KEY }}
           script: |
-            cd /deploy
+            cd /root/deploy
             git pull
             docker compose up -d --build
